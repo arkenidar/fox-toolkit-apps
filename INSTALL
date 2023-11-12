@@ -7,6 +7,10 @@ http://fox-toolkit.org/ftp/
 cd fox-1.7.84/ && ls
 ./configure --with-opengl=yes --with-xft=no && make && make install && echo DONE-QUITTING
 
-- in GNU Linux software-distribution (GNU for Linux). (tested in: Manjaro Linux).
+- in GNU Linux software-distribution (GNU for Linux). (tested in: "Manjaro GNU-Linux" and "KUbuntu Debian GNU-Linux").
 cd fox-1.7.84/ && ls
 ./configure && make && sudo make install && echo DONE-QUITTING
+
+code $HOME/.bashrc # add the following line to find SO library (sudo find / -iname *FOX*.so*)
+
+export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH # add this to bash-rc, at the end of it
