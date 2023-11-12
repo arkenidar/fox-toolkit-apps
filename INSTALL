@@ -1,0 +1,12 @@
+INSTALL fox-toolkit (C++ library)
+
+http://fox-toolkit.org/ftp/fox-1.7.84.zip
+http://fox-toolkit.org/ftp/
+
+- in MinGW for MSYS for Windows (GNU for Windows). (tested in: Windows 11).
+cd fox-1.7.84/ && ls
+./configure --with-opengl=yes --with-xft=no && make && make install && echo DONE-QUITTING
+
+- in GNU Linux software-distribution (GNU for Linux). (tested in: Manjaro Linux).
+cd fox-1.7.84/ && ls
+./configure && make && sudo make install && echo DONE-QUITTING
