@@ -1,2 +1,7 @@
+# CMAKE
 build
+
+#[IDE] CLion IDE
+cmake-build-debug
+
 a.*
