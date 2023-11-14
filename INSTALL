@@ -13,4 +13,10 @@ cd fox-1.7.84/ && ls
 
 code $HOME/.bashrc # add the following line to find SO library (sudo find / -iname *FOX*.so*)
 
-export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH # add this to bash-rc, at the end of it
+export LD_LIBRARY_PATH=/usr/local/lib:/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH # add this to bash-rc, at the end of it
+
+
+- in Debian builds, optionally
+./configure
+make
+sudo checkinstall # in place of "sudo make install"
