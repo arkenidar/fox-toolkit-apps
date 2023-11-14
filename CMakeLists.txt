@@ -6,7 +6,7 @@
 # "cmake.generator": "Unix Makefiles" // gnu for linux: gnu is not unix
 # "cmake.generator": "MinGW Makefiles" // mingw: minimal gnu for windows
 
-cmake_minimum_required(VERSION 3.26)
+cmake_minimum_required(VERSION 3.25)
 project( app VERSION 0.1 )
 
 #### file(GLOB SOURCE_FILES "*.c*" )
