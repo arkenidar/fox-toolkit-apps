@@ -41,5 +41,7 @@ target_link_libraries(gltest OpenGL::GL OpenGL::GLU)
 # link with libm (math library), needed e.g. in GNU/Linux setting
 target_link_libraries(gltest m)
 
+if(WIN32)
 SET(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -mwindows") # GCC's linker flag for no-console
 ## SET(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} /subsystem:windows /ENTRY:mainCRTStartup") # Microsoft linker settings for no-console
+endif()
