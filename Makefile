@@ -1,5 +1,7 @@
-# - in MinGW for MSYS for Windows (GNU for Windows). (tested in: Windows 11).
-# - in GNU Linux software-distribution (GNU for Linux). (tested in: Manjaro Linux).
+# https://github.com/franko/fox => install this to have fox17 below.
+
+# - in MinGW for MSYS for Windows (GNU for Windows). (tested in: Windows-OS).
+# - in GNU Linux software-distribution (GNU for Linux). (tested in: Debian-OS).
 
 # make && ./a.*
 
